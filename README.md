@@ -23,3 +23,8 @@ A camada de controle é responsável por intermediar as requisições enviadas p
 Essa camada é responsável por apresentar as informações de forma visual ao usuário. Em seu desenvolvimento devem ser aplicados apenas recursos ligados a aparência como mensagens, botões ou telas. 
 
 Utilizei técnicas do MVC apesar de não se utilizar amplamente do padrão no projeto, já que não implementei a Controller, apenas a View, como pacote **_visao_**, na qual implementei a classe EscolaGUI.java e a Model separando os pacotes **_bd, dao, entidade e mensagem_** no pacote principal **_modelo_**.
+
+## Tela JFrame ##
+
+<div align="center"><img "width: 100%" src="images/TelaJFrame.png"></div>
+
