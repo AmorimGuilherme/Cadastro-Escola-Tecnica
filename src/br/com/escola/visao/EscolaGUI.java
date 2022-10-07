@@ -123,7 +123,6 @@ public class EscolaGUI extends javax.swing.JFrame {
         jbAdicionaCursp = new javax.swing.JButton();
         jbAlteraCurso = new javax.swing.JButton();
         jbDeletaCurso = new javax.swing.JButton();
-        JbAtualizaCurso = new javax.swing.JButton();
         jpAluno = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jtAluno = new javax.swing.JTable();
@@ -177,13 +176,6 @@ public class EscolaGUI extends javax.swing.JFrame {
             }
         });
 
-        JbAtualizaCurso.setText("ATUALIZA");
-        JbAtualizaCurso.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                JbAtualizaCursoActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout jpCursoLayout = new javax.swing.GroupLayout(jpCurso);
         jpCurso.setLayout(jpCursoLayout);
         jpCursoLayout.setHorizontalGroup(
@@ -193,9 +185,7 @@ public class EscolaGUI extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jpCursoLayout.createSequentialGroup()
-                .addGap(68, 68, 68)
-                .addComponent(JbAtualizaCurso, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(174, 174, 174)
                 .addComponent(jbAdicionaCursp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jbAlteraCurso)
@@ -212,8 +202,7 @@ public class EscolaGUI extends javax.swing.JFrame {
                 .addGroup(jpCursoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jbAdicionaCursp)
                     .addComponent(jbAlteraCurso)
-                    .addComponent(jbDeletaCurso)
-                    .addComponent(JbAtualizaCurso))
+                    .addComponent(jbDeletaCurso))
                 .addContainerGap(46, Short.MAX_VALUE))
         );
 
@@ -540,11 +529,6 @@ public class EscolaGUI extends javax.swing.JFrame {
          JOptionPane.showMessageDialog(rootPane, "Não implementado", "Deleta Matricula", JOptionPane.ERROR_MESSAGE, null);
     }//GEN-LAST:event_jbAlteraMatriculaActionPerformed
 
-    private void JbAtualizaCursoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JbAtualizaCursoActionPerformed
-        // TODO add your handling code here:
-        atualizaCurso();
-    }//GEN-LAST:event_JbAtualizaCursoActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -582,7 +566,6 @@ public class EscolaGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton JbAtualizaCurso;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;

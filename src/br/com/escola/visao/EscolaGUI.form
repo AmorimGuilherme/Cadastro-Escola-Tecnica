@@ -84,9 +84,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-                          <Component id="JbAtualizaCurso" min="-2" pref="101" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
                           <Component id="jbAdicionaCursp" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jbAlteraCurso" min="-2" max="-2" attributes="0"/>
@@ -106,7 +104,6 @@
                               <Component id="jbAdicionaCursp" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jbAlteraCurso" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jbDeletaCurso" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="JbAtualizaCurso" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="46" max="32767" attributes="0"/>
                       </Group>
@@ -157,14 +154,6 @@
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbDeletaCursoActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="JbAtualizaCurso">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="ATUALIZA"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbAtualizaCursoActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
